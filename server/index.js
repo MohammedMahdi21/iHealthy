@@ -13,7 +13,6 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }))
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }))
 app.use(cors());
 
-//
 const CONNECTIONG_ULR = 'mongodb+srv://MoeMahdi:Moe123@cluster0.qzenxij.mongodb.net/?retryWrites=true&w=majority'
 const PORT = process.env.PORT || 5000;
 
