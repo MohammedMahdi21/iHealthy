@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core'
 
-import Posts from "./components/Recipes/Recipe";
+import Posts from "./components/Recipes/Recipes";
 import Form from "./components/Form/Form";
 import recipes from './images/recipes.png'
 import useStyles from './styles'
